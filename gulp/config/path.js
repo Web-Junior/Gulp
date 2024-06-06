@@ -12,6 +12,7 @@ export const path = {
     html: `${srcFolder}/html/pages/*.html`,
     style: `${srcFolder}/style/style.scss`,
     images: `${srcFolder}/images/**/*.{jpg,jpeg,png,gif,webp,svg}`,
+    font: `${srcFolder}/font/`,
   },
   watcher: {
     html: `${srcFolder}/html/**/*.html`,

@@ -27,6 +27,7 @@
     "gulp-replace-image-src": "^1.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
+    "gulp-typograf": "^4.1.0",
     "gulp-util": "^3.0.8",
     "sass": "^1.77.4",
     "stylelint": "^16.6.1",
