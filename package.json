@@ -17,7 +17,7 @@
     "del": "^7.1.0",
     "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-css-url-replace": "^0.1.0",
+    "gulp-css-rework-url": "^0.1.2",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-html-tag-include": "^1.0.1",
     "gulp-htmlmin": "^5.0.1",
