@@ -1,1 +1,16 @@
+// 1. HELPERS
+@import "./helpers/variables";
+@import "./helpers/functions";
+@import "./helpers/mixins";
+@import "./helpers/placeholders";
+// 2. VENDORS
+@import "./vendors/_normalize";
+// 3. BASE
 @import "./base/base";
+@import "./base/fonts";
+@import "./base/typography";
+// 4. LAYOUT
+@import "./layout/header";
+@import "./layout/footer";
+// 5. COMPONENTS
+@import "./components/buttons";
