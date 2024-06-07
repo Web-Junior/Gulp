@@ -7,12 +7,13 @@ import { reset } from "./gulp/tasks/clean.js";
 import { style } from "./gulp/tasks/style.js";
 import { images } from "./gulp/tasks/images.js";
 import { font } from "./gulp/tasks/font.js";
+import { script } from "./gulp/tasks/script.js";
 
 export const isBuild = gulpUtil.env.type === "production";
 
-export const build = series(reset, parallel(html, style, images));
+export const build = series(reset, parallel(html, style, images, script));
 export default series(
   reset,
-  parallel(html, style, images, font),
+  parallel(html, style, images, font, script),
   parallel(server, watcher)
 );

@@ -15,6 +15,7 @@
     "browser-sync": "^3.0.2",
     "compress-images": "^2.0.5",
     "del": "^7.1.0",
+    "dotenv": "^16.4.5",
     "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-css-rework-url": "^0.1.2",
@@ -31,6 +32,8 @@
     "gulp-util": "^3.0.8",
     "sass": "^1.77.4",
     "stylelint": "^16.6.1",
-    "stylelint-config-htmlacademy": "^4.2.3"
+    "stylelint-config-htmlacademy": "^4.2.3",
+    "webpack": "^5.91.0",
+    "webpack-stream": "^7.0.0"
   }
 }
